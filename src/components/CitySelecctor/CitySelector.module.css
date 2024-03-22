@@ -1,0 +1,27 @@
+.inputWrapper{
+    position: relative;
+}
+.input{
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+}
+.dropdown{
+    position: absolute;
+    top: 24px;
+    background: #eee;
+    width: 300px;
+    box-sizing: border-box;
+    border-left: 1px solid #111;
+    border-right: 1px solid #111;
+}
+
+.dropdownItem{
+    padding: 10px;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    cursor: pointer;
+}

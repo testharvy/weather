@@ -1,0 +1,26 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #111111;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.content{
+    width: 300px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 24px;
+}
+.weather{
+    border: 1px solid black;
+}
