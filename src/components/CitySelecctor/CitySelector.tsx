@@ -19,7 +19,7 @@ function CitySelector({city, setCity}:Props) {
 
     const debounced = useDebouncedCallback(
         (value) => {
-            axios.get<ICity[]>(`http://api.openweathermap.org/geo/1.0/direct?q=${value}&limit=5&appid=${APIKEY}`)
+            axios.get<ICity[]>(`https://api.openweathermap.org/geo/1.0/direct?q=${value}&limit=5&appid=${APIKEY}`)
                 .then(function (response) {
                     const arr = response.data;
                     setCityList(arr);
